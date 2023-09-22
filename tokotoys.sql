@@ -36,3 +36,5 @@ VALUES
 
 SELECT * FROM tools t
 JOIN tools_category tc ON tc.id = t.category_id;
+
+UPDATE tools_category SET category_name = 'Medium' WHERE id = 3;
